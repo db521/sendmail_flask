@@ -8,6 +8,7 @@ app = Flask(__name__)
 def index():
     email_list = ['1@1.com', '2@2.com']
     email = request.form.get('email')
+
     password=request.form.get('password')
     if email in email_list:
         return render_template('test.html')
