@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002f5e04-762e-4925-b721-98ea4d5ae55f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/hello测试成功/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/hello测试成功/hello.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/week_report.iml" afterPath="$PROJECT_DIR$/.idea/week_report.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/hello.py" afterPath="$PROJECT_DIR$/dev/hello.py" />
     </list>
     <ignored path="week_report.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -480,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1464101492936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="有一个好使的登录页面,还有一个需要做处理,返回页面是单独的没做好变量的定义">
+      <created>1464186611142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1464186611142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,7 +523,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <MESSAGE value="有一个好使的登录页面,还有一个需要做处理,返回页面是单独的没做好变量的定义" />
+    <option name="LAST_COMMIT_MESSAGE" value="有一个好使的登录页面,还有一个需要做处理,返回页面是单独的没做好变量的定义" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
