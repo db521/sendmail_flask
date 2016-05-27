@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {%if title%}
+    <title>{{title}}--if的值</title>
+    {%else%}
+    <title>else里面的值</title>
+    {%endif%}
+</head>
+<body>
+    <h1>hello模版里面的正文,{{user.nickname}}!</h1>
+    {%for post in posts%}
+    <p>{{post.author.nickname}} says:<b>{{post.body}}</b></p>
+    {% endfor %}
+</body>
+</html>
