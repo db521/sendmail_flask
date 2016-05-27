@@ -18,7 +18,13 @@ def login():
         session['username'] = request.form['username']
         session['password'] = request.form['password']
         return redirect(url_for('index'))
-    return render_template('login.html')
+    return  '''
+        <form action="" method="post">
+            <p><input type=text name=username>
+            <p><input type=text name=password>
+            <p><input type=submit value=Login>
+        </form>
+    '''
 
 
 @app.route('/logout')
