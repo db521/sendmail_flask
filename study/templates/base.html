@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {%if title%}
+    <title>{{title}}---这里使用函数定义的标题名称</title>
+    {% else %}
+    <title>模板里面的标题</title>
+    {%endif%}
+</head>
+<body>
+<div>模版里面的内容:<a href="/index">home主页</a></div>
+<hr>
+{%block content%}{%endblock%}
+</body>
+</html>
